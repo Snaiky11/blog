@@ -36,14 +36,15 @@
 
 .bg-title {
     background: #222222;
-    color: white;
+    color: #d0d0d0;
     margin-top: 0;
     padding: 2px 0 3px 0;
+    border-bottom: 4px solid rgb(255, 184, 0);
 }
 
 .events {
     margin: 0;
-    padding: 15px;
+    padding: 12px;
 }
 
 .shadow {
@@ -66,4 +67,10 @@ width:100%;
 height:400px;
 background-color:#5f666d;
 color:white;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 184, 0);
 }
