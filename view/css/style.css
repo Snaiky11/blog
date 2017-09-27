@@ -1,16 +1,38 @@
 .container-lg {
+    display: flex;
     width: 80%;
     margin: auto;
 }
 
 .container-md {
-
+    width: 69%;
+    margin: auto;
 }
 
 .container-sm {
-
+    width: 40%;
+    margin: auto;
 }
 
 .container-xs {
+    width: 28%;
+    margin: auto;
+}
 
+.bg-light {
+    background: rgb(255, 255, 255);
+}
+
+.bg-dark {
+    background: #222222;
+}
+
+.shadow {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#backpage {
+    background: rgb(230, 230, 230);
 }

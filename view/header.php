@@ -1,6 +1,25 @@
 <header class="container-fluid">
     <nav class="navbar navbar-inverse">
         <div class="container">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!--<ul class="nav navbar-nav navbar-left">
+                    <li><a class="btn btn-lg btn-social-icon btn-twitter"><i class="fa fa-twitter-square"></i></a></li>
+                    <li><a class="btn btn-lg btn-social-icon btn-facebook"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a class="btn btn-lg btn-social-icon btn-youtube"><i class="fa fa-youtube-square"></i></a></li>
+                </ul>-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="">
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
