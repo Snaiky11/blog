@@ -31,9 +31,9 @@
             </div> <!-- navbar-header -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Home</a></li>
+                    <li class="active2"><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
                     <li role="presentation" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jeux & Serveurs<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-tasks"></span>&nbsp;Jeux & Serveurs<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
@@ -41,9 +41,9 @@
                             <li><a href="#">Separated link</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Forum</a></li>
-                    <li><a href="#">WebTV</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-comment"></span>&nbsp;Forum</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;WebTV</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Contact</a></li>
                 </ul>
             </div> <!-- navbar-collapse -->
         </div> <!-- container-fluid -->

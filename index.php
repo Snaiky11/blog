@@ -19,10 +19,23 @@
             <div class="container-fluid">
 
 
-                <div class="container-lg shadow">
+                <div class="container-lg bg-light shadow">
                     <div class="container-md">
+                        <div class="container-full">
+                            <?php include 'view/carousel.php' ?>
+                        </div>
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-6">
+                                <div class="thumbnail">
+                                    <img src="view\css\img\sina.png" alt="...">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
                                 <div class="thumbnail">
                                     <img src="view\css\img\sina.png" alt="...">
                                     <div class="caption">
@@ -36,7 +49,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="thumbnail">
-                                    <img src="..." alt="...">
+                                    <img src="view\css\img\sina.png" alt="...">
                                     <div class="caption">
                                         <h3>Thumbnail label</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -46,29 +59,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="thumbnail">
-                                    <img src="..." alt="...">
-                                    <div class="caption">
-                                        <h3>Thumbnail label</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="thumbnail">
-                                    <img src="..." alt="...">
-                                    <div class="caption">
-                                        <h3>Thumbnail label</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="thumbnail">
-                                    <img src="..." alt="...">
+                                    <img src="view\css\img\sina.png" alt="...">
                                     <div class="caption">
                                         <h3>Thumbnail label</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -78,14 +69,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container-xs bg-light">
-                        <h2>Nous suivre</h2>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+                        <div class="container-xs bg-dark">
+                            <div class="bg-title">
+                                <h3 class="events">Events</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
