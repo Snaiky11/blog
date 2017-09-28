@@ -10,22 +10,20 @@
         <script type="text/javascript" src="view/js/jquery-3.2.1.js"></script>
         <script type="text/javascript" src="view/js/bootstrap.js"></script>
         <script type="text/javascript" src="view/js/npm.js"></script>
-        <script type="text/javascript" src="view/js/moment.js"></script>
-        <script type="text/javascript" src="view/js/bootstrap-datetimepicker.js"></script>
     </head>
     <body>
         <div class="container-fluid" id="backpage">
             <?php
                 include 'view/header.php';
             ?>
+
             <div class="container-fluid">
-
-
                 <div class="container-lg bg-light shadow">
                     <div class="container-md">
-                        <div class="container-full">
+                        <div class="container-fluid">
                             <?php include 'view/carousel.php' ?>
                         </div>
+                        <div class="spacer"></div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="thumbnail">
@@ -71,9 +69,14 @@
                             </div>
                         </div>
                     </div>
-                        <div class="container-xs bg-dark">
-                            <div class="bg-title">
-                                <h3 class="events">Events</h3>
+                        <div class="container-xs">
+                            <div class="container-fluid" id="live">
+                                <h3 class="events bg-title">WebTV</h3>
+                                    <?php include 'view/twitch.php' ?>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="container-fluid container-full">
+                                <?php include 'view/discord.php' ?>
                             </div>
                         </div>
                     </div>

@@ -1,8 +1,3 @@
-.container-full {
-    width: 100%;
-    margin-bottom: 15px;
-}
-
 .container-lg {
     display: flex;
     width: 80%;
@@ -36,10 +31,10 @@
 
 .bg-title {
     background: #222222;
-    color: #d0d0d0;
+    color: rgb(255, 184, 0);
     margin-top: 0;
     padding: 2px 0 3px 0;
-    border-bottom: 4px solid rgb(255, 184, 0);
+    font-weight: bold;
 }
 
 .events {
@@ -73,4 +68,20 @@ color:white;
     margin: 0;
     padding: 0;
     color: rgb(255, 184, 0);
+}
+
+iframe {
+    background: linear-gradient(#738BD7, #1E2124);
+}
+
+.spacer {
+    width: 100%;
+    height: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(255, 184, 0);
+}
+
+#live {
+    height: 350px;
 }
